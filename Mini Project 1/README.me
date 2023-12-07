@@ -1,2 +1,108 @@
 In this mini project, we were tasked with analyzing a raw dataset to extract insights and provide answers to specific questions derived from the analysis
 Tool used : Microsoft Excel
+
+
+In this assignment and dataset, we will be dealing with stock transfer from 3 Cities
+
+Hyderabad (H) acts as the Hub or Mother Distribution Centre (DC) and sends out good to Madras (M) DC and Cochin (C) DC.
+
+The Business units here are Makeup, Luxury Products and Furniture - and different Stock Keeping Units (SKUs) are denoted as M01, M02…. M10; L01, L02…. L10; F01, F02…. F10. Respectively.
+
+There are 4 data sheets in the Excel File provided to you.
+
+i. SKU Master: It contains information of BU, SKU, Brand, Model and Average Price
+
+ii. Sales Data: It contains information on Date, SKU, City and Volume
+
+iii. OPN STK: Stock that is available as on 01-04-2021
+
+iv. Stock Transfer: Contains information on incoming stocks to Madras and Cochin DC from Hyderabad
+    HQ from 01-04-2021 – 15-04-2021.
+
+Here are some conceptual clarifications for better understanding:
+* Average days of Inventory cover indicates how many days your DC will be able to send out goods given the opening stock, without getting any replenishment.
+* Opening Stock can be negative in very rare cases - in case of taking back orders.
+* Closing stock can be negative
+
+Answer the following questions upon processing the dataset.
+
+** Q1 Consider a situation where there is no replenishment of stock for Alps Aloe Face Wipes. –
+Calculate the number of COMPLETE days the opening stock will be able to meet the demand.**
+Select the apt option.
+
+Hint: If the calculated Days of Inventory Coverage comes out to be 3.8 then the select the option ‘3 complete days’ instead of rounding it off to 4.
+
+Answer: 2 
+
+** Q2 What is the closing stock of WFH Gear Side Table on 7 April 2021 in Madras and Cochin
+respectively? **
+
+Hint: Create a date wise stock tracking ledger for Madras and Cochin
+
+Answer: 14,12
+
+Q3 Which one of the following have the highest average days of inventory in Madras Distribution
+Centre?
+
+Hint: Please refer to conceptual clarifications to gain a better understanding of Average Days of Inventory
+Answer: Jeera Spring Lily
+
+Q4 Create a revenue pareto of all business units (Furniture, Luxury, Makeup) individually and also a cumulative revenue pareto plot of all SKUs combined and answer the following question.
+
+* Which of the following qualify for the 80-20 Pareto concept as explained in the video lectures?
+
+Furniture BU
+
+Luxury BU
+
+MakeUp BU
+
+All Combined
+
+None of them qualify the 80-20 Pareto criteria
+
+Accepted Answers: Furniture BU
+
+Q5 Sale of Makeup and Luxury products provide what percentage of total revenue generated over the 15 days?
+
+Answer: 43%
+
+Q6 From the data provided – point out the day which observed the least number of units sold in Cochin (irrespective of revenue generated)
+
+Hint: Make a day-wise and city-wise sales distribution pivot.
+
+Answer: Monday
+
+Q7 The bestselling products of all BUs across all DCs – Maybeleen Compact Powder, Amazonian Basix 0 Gravity chair &amp; KAMA Haldi Chandan contribute to what percentage of volume of total units being sold by Fabmart over the 15 days?
+
+Answer: 37%
+
+Q8 Which of the following product has the lowest closing inventory at the end of the 15-day period in Cochin?
+
+Alps Aloe Face Wipes
+
+Dads Co UnderEye Cream
+
+ADHD Wooden Coffee Table
+
+Maybeleen BabyLips
+
+Answers:
+Maybeleen BabyLips
+
+Q9 Plot a Daily Revenue Growth chart – pick out the date which witnesses the highest percentage growth in sales as compared to the previous day.
+
+Answers: 13 th April 2021
+
+Q10 Construct a City-Wise Scatter Plot (Revenue v/s Volume) and point out which SKU – among the following seems to be an outlier
+
+L02
+
+M02
+
+L01
+
+F02
+
+Accepted Answers:
+L01
